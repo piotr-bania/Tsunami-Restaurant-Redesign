@@ -30,7 +30,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.2;
   color: var(--grey-light);
   background: -webkit-gradient(linear, left top, right top, from(var(--grey-darkest)), to(var(--grey-dark)));
   background: linear-gradient(90deg, var(--grey-darkest) 0%, var(--grey-dark) 100%);
@@ -292,7 +292,11 @@ nav button {
 
 .left {
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 15%;
+}
+
+.left p {
+  font-size: 40px;
 }
 
 .right {
