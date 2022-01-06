@@ -1,0 +1,24 @@
+{
+  "name": "tsunami-restaurant-redesign",
+  "version": "1.0.0",
+  "description": "Redesign of the website for Tsunami Restaurant based in Clapham, London",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotr-bania/Tsunami-Restaurant-Redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotr-bania/Tsunami-Restaurant-Redesign/issues"
+  },
+  "homepage": "https://github.com/piotr-bania/Tsunami-Restaurant-Redesign#readme",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "three": "^0.136.0"
+  }
+}
